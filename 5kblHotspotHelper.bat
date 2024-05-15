@@ -71,7 +71,7 @@ goto other
 :1
 powershell .\hotspotstart.ps1
 
-netsh wlan disconnect
+netsh wlan disconnect interface=%interfacename%
 
 timeout 2
 
